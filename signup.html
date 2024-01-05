@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Crie sua conta</title>
+  </head>
+  <body>
+    <main class="container-signup">
+      <section class="left">
+        <h1>Cadastre-se</h1>
+        <form id="form" action="">
+          <input
+            placeholder="Nome completo"
+            type="text"
+            name="name"
+            id="name-signup"
+            required
+          />
+          <input
+            placeholder="Digite seu CPF"
+            type="text"
+            name="cpf"
+            id="cpf-signup"
+            required
+          />
+          <div id="msg-cpf"></div>
+          <input
+            type="email"
+            id="email-signup"
+            class="input-padrao"
+            required
+            placeholder="Digite seu email"
+          />
+          <input
+            placeholder="Digite sua senha"
+            type="password"
+            name="password"
+            id="password-signup"
+            required
+          />
+          <input
+            placeholder="Confirme sua senha"
+            type="password"
+            name="password"
+            id="password-signup-confirm"
+            required
+          />
+          <div id="msg"></div>
+          <div>
+            <input type="checkbox" name="terms" id="terms" />
+            <label for="terms"> Concordo com os <a href="#">termos</a>.</label>
+          </div>
+          <input type="submit" id="btn-registrar" value="Criar conta" />
+        </form>
+        <div class="message">
+          <span class="link">
+            Já possui uma conta? <a href="login.html">Faça o login.</a></span
+          >
+        </div>
+      </section>
+      <section class="right">
+        <img
+          class="info-img"
+          src="./assets/images/registro.png"
+          alt="Informações do projeto"
+        />
+        <h2>Seu cadastro de forma segura.</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nemo,
+          placeat quasi minus explicabo earum repellat perferendis numquam ipsa,
+          fugit provident! Neque modi voluptates tempore dolorum consectetur
+          illum est iusto!
+        </p>
+      </section>
+    </main>
+
+    <script src="./assets/js/registro.js"></script>
+  </body>
+</html>

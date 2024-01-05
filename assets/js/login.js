@@ -33,7 +33,7 @@ btnLogin.addEventListener("click", function (e) {
     localStorage.setItem("login", armazenamentoLoginJSON);
     if (isValidaLogin === true) {
       alert`LOGIN EFETUADO`;
-      window.location.href = "./home.html";
+      window.location.href = "./html/home.html";
     } else {
       alert`DADOS INCORRETOS`;
       const form = document.querySelector("#form-login");
